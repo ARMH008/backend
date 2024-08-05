@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "export npm_config_platform=linux npm_config_arch=x64",
     "start": "nodemon server.js",
     "server": "nodemon server.js"
   },
